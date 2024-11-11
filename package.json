@@ -1,0 +1,20 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "- São testes curtos e isolados\r - ⚠️ Não garante uma integração de módulos\r ## Integração\r - São testes de rotas e requisições; Comunicação dos módulos\r - ⚠️ Não analisa todo fluxo da aplicação\r ## E2E\r - Teste de ponta a ponta, alto nível\r - Testes longos e completos;\r - Análise de todos os módulos e stacks. Ex: frontend, base de dados, micros serviços.\r - ⚠️ Tempo longo e custo alto\r - ⚠️ Complexa estrutura de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^8.16.0",
+    "globals": "^15.11.0",
+    "jest": "28.1.0"
+  },
+  "type": "module"
+}
